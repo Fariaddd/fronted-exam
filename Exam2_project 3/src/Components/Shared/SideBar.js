@@ -85,11 +85,8 @@ const SideBar = ({ handleSearch }) => {
                 <span className="text-[#85B6FF] text-[2.5rem]">
                   <BsSearch />
                 </span>
-                {/* <p className="bg-white w-[134px] h-[54px] flex justify-center items-center text-[23px] font-bold rounded-[12px]">
-                  Search
-                </p> */}
                 <input
-                  className="bg-white w-[134px] h-[54px] justify-center items-center text-[23px] font-bold rounded-[12px] hidden pl-6 lg:block"
+                  className="bg-white w-[134px] h-[54px] justify-center items-center text-[23px] font-bold rounded-[12px] hidden pl- lg:block"
                   placeholder="Search"
                   onChange={handleSearch}
                 />
@@ -213,7 +210,7 @@ const SideBar = ({ handleSearch }) => {
                 className="flex flex-col items-center"
               >
                 <TbBrandBooking className="text-[24px] text-[#85B6FF] cursor-pointer" />
-                <p className="text-[12px]">Venues</p>
+                <p className="text-[12px]">HomePage</p>
               </div>
             </div>
           </>

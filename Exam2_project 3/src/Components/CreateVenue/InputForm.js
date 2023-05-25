@@ -98,7 +98,7 @@ const InputForm = ({
           type="text"
           id="userName"
           name="images"
-          placeholder="Name"
+          placeholder="It must be a image-URL"
           onChange={handleImage}
         />
       </form>

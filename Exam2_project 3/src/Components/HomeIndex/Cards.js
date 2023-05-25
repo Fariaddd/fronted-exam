@@ -11,12 +11,14 @@ import { useNavigate } from "react-router-dom";
 import Loader from "../Shared/Loader";
 import { useGetVenuesQuery } from "../../services/venueApi";
 import logo from "../../Assets/logo.png";
+import {BsSearch } from "react-icons/bs";
 const Cards = ({searchResult, search, handleSearch, isLoading, venues}) => {
   const navigate = useNavigate();
   
   return (
     <>
-      <div className="sticky top-0  flex items-end justify-between mx-auto w-[90%]">
+      <div >
+      <div className="sticky top-1 bg-[#EAEAEA]  flex items-end justify-between mx-auto w-[90%]">
         <img
           src={logo}
           className="block lg:hidden cursor-pointer"
@@ -26,18 +28,14 @@ const Cards = ({searchResult, search, handleSearch, isLoading, venues}) => {
           onClick={() => navigate("/")}
         />
         <input
-          className="sticky top-0  w-[75%] border-[#7c7c7c8f] border-[1px] bg-white outline-none px-[22px] py-[10px] rounded-full block  mt-[10px] lg:hidden"
+          className="sticky top-0 bg-[#D9D9D9]  w-[85%] border-[#7c7c7c8f] border-[1px] outline-none px-[22px] py-[10px] rounded-full block  mt-[10px] lg:hidden"
           placeholder="Search"
           onChange={handleSearch}
         />
+
       </div>
-      {/* <div className="w-[70%] mx-[auto]">
-        <input
-          className="w-[100%] border-[#7c7c7c8f] border-[1px] bg-[#D9D9D9] outline-none px-[32px] py-[17px] rounded-full  mt-[10px] hidden lg:block"
-          placeholder="Search"
-          onChange={handleSearch}
-        />
-      </div> */}
+      </div>
+
       <div className="flex flex-col gap-[160px] mt-[2.5rem]">
         {!isLoading ? (
           <>
