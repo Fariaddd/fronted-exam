@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* Initially show the bottom bar */
+.bottomBar {
+  position: fixed;
+  bottom: 0;
+  display: block;
+  transition: transform 0.3s;
+  transform: translateY(0);
+  background: rgba(217, 217, 217, 1);
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+/* Hide the bottom bar */
+.bottomBar.hidden {
+  transform: translateY(100%);
+}
