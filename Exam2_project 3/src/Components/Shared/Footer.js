@@ -23,14 +23,14 @@ const Footer = () => {
       {/* ///// second group ///// */}
       <div className="w-[100%] lg:w-[378px] p-[32px] rounded-[5px] border flex flex-col items-center gap-[1rem]">
         <h3 className="text-[32px] font-bold">Support</h3>
-        <h4 className="text-[24px] text-center font-bold">
-          Help center COVID-19 Response AirCover
+        <h4 className="text-[24px] text-center leading-loose font-normal">
+          Help center <br /> COVID-19 Response <br /> Air-Cover
         </h4>
       </div>
       {/* ///// third group ///// */}
       <div className="w-[100%] lg:w-[378px] p-[32px] rounded-[5px] border flex flex-col items-center text-center gap-[1rem]">
         <h3 className="text-[32px] font-bold">VENUE-HOLIDAY</h3>
-        <h4 className="text-[24px] text-center font-bold">Newsroom Careers Investors</h4>
+        <h4 className="text-[24px] text-center leading-loose font-normal">Newsroom <br /> Careers <br /> Investors</h4>
       </div>
     </div>
   );
