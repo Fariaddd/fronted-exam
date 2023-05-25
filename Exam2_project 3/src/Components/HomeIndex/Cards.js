@@ -16,7 +16,7 @@ const Cards = ({searchResult, search, handleSearch, isLoading, venues}) => {
   
   return (
     <>
-      <div className="flex items-end justify-between mx-auto w-[90%]">
+      <div className="sticky top-0  flex items-end justify-between mx-auto w-[90%]">
         <img
           src={logo}
           className="block lg:hidden cursor-pointer"
@@ -26,7 +26,7 @@ const Cards = ({searchResult, search, handleSearch, isLoading, venues}) => {
           onClick={() => navigate("/")}
         />
         <input
-          className="w-[75%] border-[#7c7c7c8f] border-[1px] bg-[#D9D9D9] outline-none px-[22px] py-[10px] rounded-full block  mt-[10px] lg:hidden"
+          className="sticky top-0  w-[75%] border-[#7c7c7c8f] border-[1px] bg-white outline-none px-[22px] py-[10px] rounded-full block  mt-[10px] lg:hidden"
           placeholder="Search"
           onChange={handleSearch}
         />
