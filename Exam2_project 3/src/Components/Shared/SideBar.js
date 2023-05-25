@@ -89,7 +89,7 @@ const SideBar = ({ handleSearch }) => {
                   Search
                 </p> */}
                 <input
-                  className="w-[134px] h-[54px] border-[#7c7c7c8f] border-[1px] bg-[#D9D9D9] outline-none px-[10px] py-[12px] rounded-full  mt-[10px] hidden lg:block"
+                  className="bg-white w-[134px] h-[54px] justify-center items-center text-[23px] font-bold rounded-[12px] hidden pl-6 lg:block"
                   placeholder="Search"
                   onChange={handleSearch}
                 />
