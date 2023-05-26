@@ -164,7 +164,6 @@ const SideBar = ({ handleSearch }) => {
           )}
         </div>
       </div>
-
       {/* ////////// for small screen ////////// */}
       <div className={`bottomBar ${visible ? "" : "hidden"} lg:hidden`}>
         {authentication?.email ? (

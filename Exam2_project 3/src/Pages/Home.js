@@ -7,7 +7,7 @@ const Home = ({handleSearch}) => {
   return (
     <div className="flex flex-col lg:flex-row relative">
       <SideBar handleSearch={handleSearch} />
-      <div className="grow md:px-[30px]">
+      <div className="container m-auto">
         <Outlet
           
         />

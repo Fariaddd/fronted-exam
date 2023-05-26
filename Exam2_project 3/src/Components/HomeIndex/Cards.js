@@ -17,8 +17,8 @@ const Cards = ({searchResult, search, handleSearch, isLoading, venues}) => {
   
   return (
     <>
-      <div >
-      <div className="sticky top-1 bg-[#EAEAEA]  flex items-end justify-between mx-auto w-[90%]">
+      <div className="sticky top-0  flex items-end justify-between mx-auto w-[100%]">
+      <div className="sticky top-1  flex items-end justify-between mx-auto w-[90%]">
         <img
           src={logo}
           className="block lg:hidden cursor-pointer"
