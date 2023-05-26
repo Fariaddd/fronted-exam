@@ -92,7 +92,7 @@ const Authentication = () => {
   };
   if (loading) {
     return (
-      <div className="w-[100%] min-h-screen flex flex-col lg:flex-row justify-center items-center gap-[2rem] lg:gap-[5rem] py-[2rem] lg:py-0 px-[12px] lg:px-0">
+      <div className="w-[10%] min-h-screen flex flex-col lg:flex-row justify-center items-center gap-[2rem] lg:gap-[5rem] py-[2rem] lg:py-0 px-[12px] lg:px-0">
         <InfinitySpin width="200" color="#4fa94d" />
       </div>
     );
