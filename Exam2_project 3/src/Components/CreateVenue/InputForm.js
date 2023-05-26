@@ -14,7 +14,6 @@ const InputForm = ({
   images,
   setImages,
 }) => {
-  // const [image, setImage] = useState();
   const handleChange = (event) => {
     setSeleceted(event.target.value);
   };
@@ -80,8 +79,6 @@ const InputForm = ({
             <MenuItem value={1}>Guest 1</MenuItem>
             <MenuItem value={2}>Guest 2</MenuItem>
             <MenuItem value={3}>Guest 3</MenuItem>
-            <MenuItem value={4}>Guest 4</MenuItem>
-            <MenuItem value={5}>Guest 5</MenuItem>
           </Select>
         </FormControl>
         <input
