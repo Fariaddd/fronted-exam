@@ -98,14 +98,15 @@ const Authentication = () => {
     );
   }
   return (
-    <div className=" flex flex-col lg:flex-row justify-center items-center  py-[2rem] px-[12px] ">
+    
+    <div className="w-[100%] min-h-screen m-auto flex flex-col lg:flex-row justify-center items-center gap-[2rem] lg:gap-[5rem] py-[2rem] lg:py-0 px-[12px] lg:px-0">
       <div className="lg:w-[600px] p-[22px] rounded-[8px] border border-black">
         <h1 className="text-[48px] lg:text-[76px] text-center font-bold">
           Sign-in
         </h1>
         <form
           onSubmit={handleSignin}
-          className="flex flex-col  gap-[42px] mt-[50px]"
+          className="flex flex-col gap-[42px] mt-[50px]"
         >
           <div className="flex flex-col">
             <label
@@ -142,7 +143,7 @@ const Authentication = () => {
           </div>
         </form>
       </div>
-      <div className="lg:w-[600px] m-auto  p-[22px] rounded-[8px] border border-black">
+      <div className="lg:w-[600px] p-[22px] rounded-[8px] border border-black">
         <h1 className="text-[32px] lg:text-[76px] text-center font-bold">
           Sign-up
         </h1>
