@@ -5,7 +5,6 @@ import petIcon from "../Assets/pet-icon.png";
 import carIcon from "../Assets/car-icon.png";
 import breakfastIcon from "../Assets/breakfast-icon.png";
 import CalenderSection from "../Components/ProductsPage/CalenderSection";
-import img from "../Assets/Skjermbilde 2023-04-26 kl. 02.59 7.png";
 import Footer from "../Components/Shared/Footer";
 import { toast } from "react-toastify";
 import { useCreateVenueMutation } from "../services/venueApi";

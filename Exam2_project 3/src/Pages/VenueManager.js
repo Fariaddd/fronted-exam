@@ -70,9 +70,9 @@ const VenueManager = () => {
       <h3 className="font-bold text-[32px] lg:text-[45px] py-[1rem] lg:py-[4rem]">
         You have {data?.length} Venue
       </h3>
-      {/* ////// */}
+      {/* ////// grid grid-cols-1 lg:grid-cols-2 gap-[3rem] */}
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-[3rem]">
+      <div className="flex flex-col ">
         {data?.map((d) => (
           <>
             <div className="lg:h-[550px]  relative">

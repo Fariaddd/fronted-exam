@@ -41,7 +41,7 @@ const ProductPage = () => {
     );
   }
   return (
-    <div className="px-[12px]">
+    <div className="flex flex-col px-[12px]">
       {/* ////// top heading ////// */}
       <h1 className="font-bold text-[32px] lg:text-[45px] text-center py-[2rem]">
         {venue?.description}
@@ -51,7 +51,7 @@ const ProductPage = () => {
         {venue?.media?.map((v) => (
           <div>
             <img
-              className="w-[434px] h-[466px] object-contain"
+              className="w-[434px] h-[466px] justify-center items-center object-contain"
               src={v}
               alt=""
             />

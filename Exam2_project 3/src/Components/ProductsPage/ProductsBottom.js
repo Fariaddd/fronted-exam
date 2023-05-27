@@ -34,7 +34,6 @@ const ProductsBottom = ({ venue }) => {
     if (dateFrom && dateTo && guests && venueId && authorizationValue) {
       try {
         bookVenue({ venueId, guests, dateFrom, dateTo }).then((res) => {
-          console.log(res);
           if (res?.data?.id) {
             toast.success("Successfully Booked!");
           } else {
