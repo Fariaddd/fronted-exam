@@ -10,7 +10,7 @@ const HomeIndex = ({
   venues,
 }) => {
   return (
-    <div className="w-[100%]">
+    <div className="w-[100%]  container m-auto ">
       <h1 className="font-bold text-[32px] lg:text-[76px] text-center lg:py-[2rem] hidden lg:block">
         Book your Venue holidays here!
       </h1>

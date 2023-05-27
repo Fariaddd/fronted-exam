@@ -86,7 +86,7 @@ const SideBar = ({ handleSearch }) => {
                   <BsSearch />
                 </span>
                 <input
-                  className="bg-white w-[134px] h-[54px] justify-center items-center text-[23px] font-bold rounded-[12px] hidden pl- lg:block"
+                  className="bg-white w-[134px] h-[54px] justify-center p-[25px] items-center text-[23px] font-bold rounded-[12px] hidden pl- lg:block"
                   placeholder="Search"
                   onChange={handleSearch}
                 />
