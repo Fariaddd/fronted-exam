@@ -99,8 +99,8 @@ const Authentication = () => {
   }
   return (
     
-    <div className="w-[100%] min-h-screen container flex flex-col lg:flex-row justify-center items-center gap-[2rem] lg:gap-[5rem] py-[2rem] lg:py-0 px-[12px] lg:px-0">
-      <div className="lg:w-[600px] p-[22px] rounded-[8px] border border-black">
+    <div className="w-[100%] min-h-screen flex flex-col lg:flex-row justify-center items-center gap-[2rem] lg:gap-[5rem] py-[2rem] lg:py-0 px-[12px] lg:px-0">
+      <div className="lg:w-[600px] container m-auto  p-[22px] rounded-[8px] border border-black">
         <h1 className="text-[48px] lg:text-[76px] text-center font-bold">
           Sign-in
         </h1>
@@ -143,7 +143,7 @@ const Authentication = () => {
           </div>
         </form>
       </div>
-      <div className="lg:w-[600px] p-[22px] rounded-[8px] border border-black">
+      <div className="lg:w-[600px] container m-auto  p-[22px] rounded-[8px] border border-black">
         <h1 className="text-[32px] lg:text-[76px] text-center font-bold">
           Sign-up
         </h1>
