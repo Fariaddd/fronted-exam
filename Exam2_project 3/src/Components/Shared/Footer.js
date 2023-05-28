@@ -5,8 +5,7 @@ const Footer = () => {
   return (
     <div className="flex flex-col lg:flex-row justify-between p-[32px] rounded-[5px]  mb-[1rem] gap-[2rem] lg:gap-0">
       {/* ///// first group ///// */}
-      <div className="w-[100%] lg:w-fit p-[32px] rounded-[5px]  border-[1px] flex flex-col items-center gap-[1rem]"
-        style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"}}
+      <div className="w-[100%] lg:w-fit p-[32px] rounded-[5px]  border-[1px] shadow-xl  flex flex-col items-center gap-[1rem]"
       >
         <h3 className="text-[32px] font-bold">Address</h3>
         <h4 className="text-[24px] font-bold">Osloveien 2, 1801</h4>
@@ -25,8 +24,7 @@ const Footer = () => {
         </div>
       </div>
       {/* ///// second group ///// */}
-      <div className="w-[100%] lg:w-[378px] p-[32px] rounded-[5px] border-[1px]  flex flex-col items-center gap-[1rem]"
-       style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"}}
+      <div className="w-[100%] lg:w-[378px] p-[32px] rounded-[5px] border-[1px] shadow-xl  flex flex-col items-center gap-[1rem]"
       >
         <h3 className="text-[32px] font-bold">Support</h3>
         <h4 className="text-[24px] text-center leading-loose font-normal">
@@ -34,8 +32,7 @@ const Footer = () => {
         </h4>
       </div>
       {/* ///// third group ///// */}
-      <div className="w-[100%] lg:w-[378px] p-[32px] rounded-[5px] border-[1px]  flex flex-col items-center text-center gap-[1rem]"
-       style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"}}
+      <div className="w-[100%] lg:w-[378px] p-[32px] rounded-[5px] border-[1px] shadow-xl flex flex-col items-center text-center gap-[1rem]"
       >
         <h3 className="text-[32px] font-bold">VENUE-HOLIDAY</h3>
         <h4 className="text-[24px] text-center leading-loose font-normal">Newsroom <br /> Careers <br /> Investors</h4>

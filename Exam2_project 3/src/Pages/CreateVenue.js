@@ -69,7 +69,6 @@ const CreateVenue = () => {
       <h1 className="font-bold text-[32px] lg:text-[45px] text-center py-[2rem] lg:py-[4rem]">
         Enjoy to create your own Venue!
       </h1>
-      {/* /////// */}
       <div className="grid lg:grid-cols-2 gap-[48px] lg:gap-[180px]">
         {/* ////// left side ////// */}
         <div>
@@ -90,10 +89,10 @@ const CreateVenue = () => {
               Owner by:{" "}
             </p>
             <div>
-              <p className="text-[1rem] lg:text-[30px] font-semibold">
+              <p className="text-[1rem] lg:text-[30px] font-normal">
                 {user?.name}
               </p>
-              <p className="text-[1rem] lg:text-[30px] font-semibold">
+              <p className="text-[1rem] lg:text-[30px] font-normal">
                 {user?.email}
               </p>
             </div>
@@ -101,47 +100,47 @@ const CreateVenue = () => {
         </div>
         {/* ////// right side ////// */}
         <div>
-          <h4 className="text-center text-[32px] lg:text-[40px] font-bold">
+          <h4 className="text-center text-[32px] lg:text-[40px] font-semibold">
             We Offer
           </h4>
           <div className="flex flex-col gap-[85px] mt-[54px]">
             <div className="flex items-center gap-[2rem] lg:gap-[96px]">
               <img
-                className="w-[40px] h-[40px] object-contain"
+                className="w-[90px] h-[90px] object-contain"
                 src={wifiIcon}
                 alt="icon"
               />
-              <h4 className="text-[24px] lg:text-[40px] font-bold">
+              <h4 className="text-[24px] lg:text-[40px] font-normal">
                 Free WiFi
               </h4>
             </div>
             <div className="flex items-center gap-[2rem] lg:gap-[96px]">
               <img
-                className="w-[40px] h-[40px] object-contain"
+                className="w-[90px] h-[90px] object-contain"
                 src={petIcon}
                 alt="icon"
               />
-              <h4 className="text-[24px] lg:text-[40px] font-bold">
+              <h4 className="text-[24px] lg:text-[40px] font-normal">
                 Animals allowed
               </h4>
             </div>
             <div className="flex items-center gap-[2rem] lg:gap-[96px]">
               <img
-                className="w-[40px] h-[40px] object-contain"
+                className="w-[90px] h-[90px] object-contain"
                 src={carIcon}
                 alt="icon"
               />
-              <h4 className="text-[24px] lg:text-[40px] font-bold">
+              <h4 className="text-[24px] lg:text-[40px] font-normal">
                 Free Parking
               </h4>
             </div>
             <div className="flex items-center gap-[2rem] lg:gap-[96px]">
               <img
-                className="w-[40px] h-[40px] object-contain"
+                className="w-[90px] h-[90px] object-contain"
                 src={breakfastIcon}
                 alt="icon"
               />
-              <h4 className="text-[24px] lg:text-[40px] font-bold">
+              <h4 className="text-[24px] lg:text-[40px] font-normal">
                 Breakfast
               </h4>
             </div>
